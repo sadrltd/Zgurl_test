@@ -1,0 +1,18 @@
+{
+  "name": "Saki",
+  "version": "1.0.0",
+  "description": "Cute but deadly",
+  "main": "server.js",
+  "author": "Monsters Inc.",
+  "dependencies": {
+    "discord.io": "^2.5.2",
+    "discord.js": "^11.2.1",
+    "socket.io": "^2.0.3",
+    "winston": "^2.3.1",
+    "ws": "^3.1.0"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^3.0.2",
+    "utf-8-validate": "^3.0.3"
+  }
+}
