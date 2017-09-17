@@ -14,7 +14,7 @@ function connectToServer() {                            // Called on a user runn
         http.request( {                                 // Make the request
             host: "http://p2.zgirls.games:8081",
             method: "POST",
-            path: "/gameservice/loading_record.php?type=2&action=imperialEnter&gameUid=488829022000063&server=59&appVersion=1.0.62",
+            path: "/gameservice/loading_record.php?type=2&action=imperialEnter&gameUid=488829022000063&server=59&appVersion=1.0.63",
             headers: {
                 "Accept-Encoding": "identity",
                 "User-Agent": "Dalvik/1.6.0 (Linux; U; Android 4.4.4; ONEPLUS A3010 Build/KTU84P)",
@@ -28,6 +28,26 @@ function connectToServer() {                            // Called on a user runn
                         })
             
 }
+                     
+var http = new XMLHttpRequest();
+var url = "http://p2.zgirls.games:8081/gameservice/loading_record.php?type=2&action=kingdom.officers&gameUid=444473466000093&server=59&appVersion=1.0.63";
+var params = JSON.stringify(myJSONobj);
+http.open("POST", url, true);
+
+http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        
+function httpGetAsync(Url, callback)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() { 
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+            callback(xmlHttp.responseText);
+    }
+    xmlHttp.open("GET", Url, true); // true for asynchronous 
+    xmlHttp.send(null);
+}
+
+                     
 logger.level = 'debug';
 // Initialize Discord Bot
 var bot = new Discord.Client({
@@ -40,11 +60,19 @@ bot.on('ready', function (evt) {
     logger.info('Logged in as: ');
     logger.info(bot.username + ' - (' + bot.id + ')');
 });
+        
 bot.on("message", function(msg) {               // On any message anywhere
     if (msg.content == "!connect") {            // If the message is !connect
         connectToServer().then(function() {     // Make the request. When teh request finishes: 
             message.reply("Connected! ")            // Reply
-        })
+        });
+        
+bot.on("message", function(msg) {               
+    if (msg.content == "!king") {            
+        httpGetAsync().then(function() {     
+            message.reply("Test! ")            // Reply
+        });        
+        
     }
 })
   
