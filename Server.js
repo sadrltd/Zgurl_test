@@ -1,9 +1,5 @@
 var fs = require('fs');
-var path;
-getGameServerPath();
 
-var port = 9933;
-var ClientManagerService = require('./ClientManagerService');
 var Discord = require('discord.io');
 var logger = require('winston');
 var auth = require('./auth.json');
