@@ -22,7 +22,8 @@ function connectToServer() {                            // Called on a user runn
             headers: {
                 "Accept-Encoding": "identity",
                 "User-Agent": "Dalvik/1.6.0 (Linux; U; Android 4.4.4; ONEPLUS A3010 Build/KTU84P)",
-                "Content-Type": "application/x-www-form-urlencoded"
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Connection": "keep-alive"
             }
     }, function (response) {                // Then, when we recieve a response
             response.on("end", () => {      // And have finished recieving data
