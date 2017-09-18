@@ -28,6 +28,10 @@ function connectToServer() {                            // Called on a user runn
 				resolve()                   // Resolve the promise. This runs the code inside connectToServer.then(function() { code here }
             })
     });
+	    
+	    
+// Test 1 - Trying to obtain data from the server  (kingdom.officers)
+	    
                      
 var http = new XMLHttpRequest();
 var url = "http://p2.zgirls.games:8081/gameservice/loading_record.php?type=2&action=kingdom.officers&gameUid=444473466000093&server=59&appVersion=1.0.63";
@@ -65,6 +69,12 @@ bot.on("message", function(msg) {               // On any message anywhere
         connectToServer().then(function() {     // Make the request. When the request finishes: 
             message.reply("Connected! ")            // Reply
 });
+	    
+
+	    
+// Follow-up to the testing part	    
+	    
+	    
         		
 bot.on("message", function(msg) {               
     if (msg.content == "*king") {            
