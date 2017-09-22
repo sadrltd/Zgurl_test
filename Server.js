@@ -187,3 +187,40 @@ a72;2042f201</AC3>
 <GXC>7f4eceb5;9b243cf8</GXC>
 <MD5>0a17be5c</MD5>
 
+//
+	
+	Node 1: IP = 192.168.8.100, TCP port = 52380
+Node 2: IP = 195.27.31.226, TCP port = 80
+
+GET /cok/lua/dr_fengdou_half_spine_d18d350ce469a9547584e6d9549e8b98_android.zip HTTP/1.1
+Host: alicdn.zgirls.net
+Accept: */*
+
+
+HTTP/1.1 200 OK
+Server: Tengine
+Content-Type: application/zip
+Content-Length: 208757
+Connection: keep-alive
+Date: Fri, 22 Sep 2017 21:50:36 GMT
+Last-Modified: Thu, 14 Sep 2017 10:22:23 GMT
+ETag: "59ba585f-32f75"
+Accept-Ranges: bytes
+Via: cache51.l2de1[160,304-0,H], cache6.l2de1[161,0], cache2.de1[0,200-0,H], cache8.de1[1,0]
+Age: 2771
+X-Cache: HIT TCP_MEM_HIT dirn:2:330336810 mlen:-1
+X-Swift-SaveTime: Fri, 22 Sep 2017 21:50:17 GMT
+X-Swift-CacheTime: 3600
+Timing-Allow-Origin: *
+EagleId: c31b1fd015061198072456917e
+
+PK
+     C–-K              spine/UT	 ^
+ąY^
+ąYux
+ ő     PK
+     C–-K              spine/fengdou_half_spine/UT	 ^
+ąY^
+ąYux
+ ő     PK    C–-Ksđ©•‡   6  spine/fengdou_half_spine/_alpha_fengdou_half_spine.pkmUT	 ^
+ąY^
