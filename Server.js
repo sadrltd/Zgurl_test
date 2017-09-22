@@ -224,3 +224,18 @@ PK
 ąYux
  ő     PK    C–-Ksđ©•‡   6  spine/fengdou_half_spine/_alpha_fengdou_half_spine.pkmUT	 ^
 ąY^
+
+//
+
+No.          Absolute Time            Source                       Destination                   Protocol          Size          Decode          Summary                                      
+31           00:36:38.706233          192.168.8.100:52359          alicdn.zgirls.net:80          HTTP              150           0               C: GET /android/app44.conf HTTP/1.1
+
+//
+
+No.          Absolute Time            Source                       Destination                   Protocol          Size          Decode          Summary                                                                                              
+454          00:36:49.237389          192.168.8.100:52380          alicdn.zgirls.net:80          HTTP              188           0               C: GET /cok/lua/dr_fengdou_half_spine_d18d350ce469a9547584e6d9549e8b98_android.zip HTTP/1.1
+
+//
+
+No.          Absolute Time            Source                       Destination                   Protocol          Size          Decode          Summary                                                                                                          
+968          00:36:58.372796          192.168.8.100:52391          alicdn.zgirls.net:80          HTTP              200           0               C: GET /cok/lua/dr_avatarzhuChengFourInOneSingle1_db3746e3749f20c8f51012f82c7ba669_android.zip HTTP/1.1
