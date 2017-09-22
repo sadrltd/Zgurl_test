@@ -146,3 +146,44 @@ Content-Encoding: gzip
 0
 
 
+//
+	
+	
+	Node 1: IP = 192.168.8.100, TCP port = 52359
+Node 2: IP = 195.27.31.253, TCP port = 80
+
+GET /android/app44.conf HTTP/1.1
+Host: www.xyaz.cn
+User-Agent: Wget
+Connection: close
+
+
+HTTP/1.1 200 OK
+Server: Tengine
+Content-Length: 1272
+Connection: close
+Date: Fri, 22 Sep 2017 21:42:14 GMT
+ETag: "4f8-5599c937fe941"
+Last-Modified: Wed, 20 Sep 2017 10:38:27 GMT
+Accept-Ranges: bytes
+Via: cache14.l2hk1[0,304-0,H], cache19.l2hk1[0,0], cache5.de1[0,200-0,H], cache6.de1[0,0]
+Age: 3262
+X-Cache: HIT TCP_MEM_HIT dirn:5:155697652 mlen:-1
+X-Swift-SaveTime: Fri, 22 Sep 2017 22:09:30 GMT
+X-Swift-CacheTime: 3600
+Timing-Allow-Origin: *
+EagleId: c31b1fce15061197967201412e
+
+<C1>42b7524f;38c80ff8;d2bf6e77;9d26c644;85c4d1da;149003a2;c77eaa7a</C1>
+<C2>cf773dc3;9962517b;baddf9a2;89fb206a;9cc2c6ea;f3436e56;a6e786cd;d13bc80c;c0de08f4;56e9428f;ad0112a7;19d03571;a4a16467;a8a5c0ed;d1bead2b;155b406c;9259b79e;6d56ab8c;70c9b339;662c1d1b;3627051f;ce9e2602;c774a107;2030fd70;7121c74c;a6199ed2;96baf9cc;b864ea0b;6da69e4e;2166e860;3dfdd82d;820842ee;d0fc4a48</C2>
+<C3>1db2bb55;06338ae5;ca3f2a72;2042f201</C3>
+<AC1>9d26c644;149003a2;c77eaa7a</AC1>
+<AC2>cf773dc3;9962517b;baddf9a2;89fb206a;7805a33c;9cc2c6ea;f3436e56;a6e786cd;d13bc80c;c0de08f4;56e9428f;ad0112a7;19d03571;a4a16467;a8a5c0ed;d1bead2b;155b406c;9259b79e;6d56ab8c;70c9b339;662c1d1b;3627051f;ce9e2602;c774a107;b864ea0b;32d872c0;2030fd70;061ac777;a6199ed2;6d17f5bd;23a125b6;96baf9cc;6da69e4e;2166e860;3dfdd82d;820842ee;d0fc4a48</AC2>
+<AC3>1db2bb55;06338ae5;4efaff63;8d97ab13;5bc40f3b;93612ecb;d1531c78;3ad53af3;539d9efc;51c53726;dad8c4f6;54d47014;ca3f2
+a72;2042f201</AC3>
+<GE>847035b5;1986fb1c;5b09e6d2;2f21a093;d6767d8a;a69023bf;81a4bb21;7a32c7fc;4da53740;aebc80f9;cc5f99d2;9a43c789;2de3ca01;0991e400;ab1ad413;1b19637c;3973054e;830af7fc</GE>
+<EC>9f3b407f;6f3192de</EC>
+<FGL>7f4eceb5;535bc57a;f3aca00a;8f50d402;b068a44b;9b243cf8;f5cd9747;5e30a22d</FGL>
+<GXC>7f4eceb5;9b243cf8</GXC>
+<MD5>0a17be5c</MD5>
+
