@@ -81,3 +81,38 @@ bot.on("message", function(msg) {
         httpGetAsync().then(function() {     
             message.reply("Test! ")            // Reply
 });
+	    
+	    
+//
+	    
+	    p..
+.. Z..]a. E .;..@ '.:./X:....d...^m..N}'=.P. ..n  HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 22 Sep 2017 22:12:32 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.5.30
+Content-Encoding: gzip
+
+2b
+...      ..H...W../.IQT....T...,Q. g....   
+0
+
+//
+	    
+	    
+	     Z..]ap..
+... E ..M.@ ..x%...d/X:..^..}';4m..NP....S  GET / HTTP/1.1
+Host: p2.zgirls.games:8081
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.8
+Cookie: gsScrollPos-1093=0; gsScrollPos-1495=; gsScrollPos-780=
+
+//
