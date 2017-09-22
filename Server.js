@@ -116,3 +116,33 @@ Accept-Language: en-US,en;q=0.8
 Cookie: gsScrollPos-1093=0; gsScrollPos-1495=; gsScrollPos-780=
 
 //
+
+Node 1: IP = 192.168.8.100, TCP port = 52425
+Node 2: IP = 47.88.58.149, TCP port = 8081
+
+GET / HTTP/1.1
+Host: p2.zgirls.games:8081
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.8
+Cookie: gsScrollPos-1093=0; gsScrollPos-1495=; gsScrollPos-780=
+
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 22 Sep 2017 22:37:46 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+X-Powered-By: PHP/5.5.30
+Content-Encoding: gzip
+
+2b
+‹      óHÍÉÉWĎ/ĘIQTđČĎ©TÎČ,Q g‰â‹   
+0
+
+
